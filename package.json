@@ -1,0 +1,28 @@
+{
+  "name": "tcfw-com-au",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^3.0.0-3",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.5",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.9",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "tailwindcss": "^2.0.4",
+    "vite": "^2.1.5"
+  }
+}

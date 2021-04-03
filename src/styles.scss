@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+	@apply m-0 p-0 bg-gray-900;
+}
+
+#app {
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	@apply container mx-auto;
+}
+
+.calling {
+	@apply flex flex-col items-center text-white text-center self-center w-full mb-10;
+
+	.name {
+		@apply text-3xl;
+	}
+
+	.pic {
+		@apply mb-3 mt-10;
+
+		> img {
+			@apply rounded-full w-48 h-48 shadow-xl border-white border-4;
+		}
+	}
+
+	.info {
+		@apply p-5; // border-l-2 border-gray-100;
+	}
+
+	.social {
+		@apply mt-6;
+
+		> a {
+			@apply px-2;
+
+			&:first-child {
+				@apply pl-0;
+			}
+
+			&:last-child {
+				@apply pr-0;
+			}
+		}
+	}
+}
